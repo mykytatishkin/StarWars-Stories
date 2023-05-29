@@ -2,7 +2,6 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - SlimUI.ModernMenu.CheckMusicVolume
-    - SlimUI.ModernMenu.ExtraLinks
     - SlimUI.ModernMenu.ThemedUIData
     - SlimUI.ModernMenu.ThemedUIElement
     - SlimUI.ModernMenu.UIMenuManager
@@ -34,6 +33,14 @@ ScriptsOnlyBuild:
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshPro
     - TMPro.TextMeshProUGUI
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
+    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -45,7 +52,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
-    - UnityEngine.UI.GridLayoutGroup
     - UnityEngine.UI.HorizontalLayoutGroup
     - UnityEngine.UI.Image
     - UnityEngine.UI.Mask
@@ -194,13 +200,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4426}
     - Class: 114
-      Script: {instanceID: 4624}
-    - Class: 114
       Script: {instanceID: 4708}
     - Class: 114
       Script: {instanceID: 5004}
-    - Class: 114
-      Script: {instanceID: 5122}
     - Class: 114
       Script: {instanceID: 5166}
     - Class: 114
@@ -524,7 +526,7 @@ ScriptsOnlyBuild:
     className: TestResultRendererCallback
   - hash:
       serializedVersion: 2
-      Hash: b8c92ce247f790bcbbaa205e7d3524e1
+      Hash: 30f3213a6e218a461fa00e428f22d3eb
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerController
@@ -792,12 +794,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SubMeshUI
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: SlimUI.ModernMenu
-    className: ExtraLinks
   - hash:
       serializedVersion: 2
       Hash: af93f9c42e90877a9ba31e37adfd900c
